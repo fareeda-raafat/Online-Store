@@ -1,0 +1,398 @@
+body {
+    background-color: #8baea2;
+    font-size: 16px;
+}
+
+/* start of login form */
+
+.login {
+
+    width: 400px;
+    margin: 100px auto;
+
+
+}
+
+.login input {
+    margin: 5px;
+}
+
+.login .btn {
+    color: white;
+    background-color: rgb(6, 66, 52);
+}
+
+/* end of login form */
+
+/* start of navbar */
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+
+}
+
+/* end of navbar */
+
+/* start of dashboard */
+
+.home-stats .stat {
+    background-color: rgb(175, 197, 193);
+    /* border: 1px solid rgb(6, 66, 52); */
+    padding: 10px;
+    color: rgb(6, 66, 52);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+
+}
+
+.home-stats .stat a {
+    color: rgb(6, 66, 52);
+    text-decoration: none;
+
+}
+
+
+.home-stats .stat span {
+    font-size: 60px;
+    font-weight: 600;
+    border-top: 1px solid rgb(6, 66, 52);
+}
+
+
+.latest {
+    margin-top: 40px;
+    color: rgb(6, 66, 52);
+
+
+
+}
+
+.latest .card {
+    border: none;
+
+}
+
+.latest .card-header {
+    background-color: rgb(144, 160, 157);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.latest .card-body {
+    background-color: rgb(192, 215, 211);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.latest-user {
+    margin-bottom: 0px;
+
+}
+
+
+.card-body .edit-user {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+.card-body .active-user {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+
+
+.card-body .approve-item {
+
+    right: 65px;
+}
+
+.card-body .edit-user span,
+.card-body .active-user span {
+    padding: 3px 13px;
+    font-size: 16px;
+}
+
+.latest-user li {
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.latest-user .btn-success .latest-user .btn-info {
+    padding: 2px 8px;
+}
+
+.latest-user li:nth-child(odd) {
+    background-color: rgb(175, 197, 193);
+}
+
+.latest .comment-box {
+    margin: 5px 0px 10px;
+
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .member-c {
+    display: inline-block;
+
+
+}
+
+.latest .comment-box .member-n {
+    text-decoration: none;
+    color: #0e2820;
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: -13px;
+
+}
+
+.latest .comment-box .member-c {
+    width: 500px;
+    background-color: rgb(175, 197, 193);
+    padding: 10px;
+    position: relative;
+
+}
+
+.latest .comment-box .member-c:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: transparent rgb(175, 197, 193) transparent transparent;
+    border-width: 10px;
+}
+
+/* end of dashboard */
+
+/* start of Edit Members */
+
+
+
+h1 {
+
+    color: rgb(6, 66, 52);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0px;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .asterisk span {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #b01414;
+    font-size: larger;
+    font-weight: 800;
+}
+
+/* end of Edit Members */
+
+/* start of Table Manage */
+table {
+    background-color: #fffdfa90;
+    font-size: large;
+    border: #333;
+    box-shadow: inset;
+
+}
+
+.avatar-size img {
+    width: 100px;
+    height: 100px;
+}
+
+.first {
+    background-color: #333;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.activate,
+.approve {
+    margin-left: 6px;
+    color: white;
+}
+
+
+/* end of Table Manage */
+
+/* start of categories manage */
+.card {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.categories .cat-head {
+    background-color: rgb(144, 160, 157);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.categories .cat {
+    background-color: rgb(192, 215, 211);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border: 1px solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .card-body {
+    padding: 0px;
+}
+
+.categories .card-body h4 {
+    cursor: pointer;
+}
+
+
+.categories .cat .visible {
+    /* background-color: red; */
+    padding: 5px;
+    color: red;
+    border-radius: 5px;
+    /* margin: 0px 4px; */
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.categories .cat .comment {
+    /* background-color: green; */
+    padding: 5px;
+    color: green;
+    border-radius: 5px;
+    /* margin: 0px 4px; */
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.categories .cat .ads {
+    /* background-color: blue; */
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+    /* margin: 0px 4px; */
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.hidden-btn .btn {
+    padding: 4px;
+    font-size: 14px;
+    margin: 2px;
+
+}
+
+.categories .cat .hidden-btn {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    right: -100px;
+}
+
+.categories .cat:hover .hidden-btn {
+    right: 10px;
+}
+
+.categories .cat:hover {
+    background-color: rgb(166, 188, 184);
+}
+
+.categories .ordering {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+.categories .ordering a {
+    text-decoration: none;
+    color: rgb(6, 66, 52);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.categories .ordering .active {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.categories .view {
+    position: absolute;
+    top: 10px;
+    right: 230px;
+}
+
+.categories .view span {
+
+    color: rgb(6, 66, 52);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.categories .view .active {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.add-btn {
+    margin-bottom: 20px;
+}
+
+.child-cat h6 {
+    padding: 5px;
+    margin: 5px;
+}
+
+.child-cat a {
+    text-decoration: none;
+    color: rgb(6, 66, 52);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+/* end of categories manage */

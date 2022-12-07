@@ -1,0 +1,216 @@
+body {
+    background-color: #8baea2;
+    font-size: 16px;
+}
+
+/* start of login form */
+
+.login {
+
+    width: 400px;
+    margin: 50px auto;
+
+
+}
+
+.login input {
+    margin: 5px;
+}
+
+.login .btn {
+    color: white;
+    background-color: rgb(6, 66, 52);
+    border: none;
+    margin: 5px;
+    width: 335px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* end of login form */
+
+/* start of navbar */
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+
+}
+
+/* end of navbar */
+
+
+/* Start of Login  */
+
+h1 {
+
+    color: rgb(6, 66, 52);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0px;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.input-container {
+    position: relative;
+}
+
+
+.input-container .asterisk {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 19px;
+    color: #a53939;
+    font-weight: 800;
+}
+
+/* End of login */
+
+
+/* Start Profile */
+
+.block {
+    margin: 20px;
+    border: none;
+
+}
+
+.block .card-header {
+    background-color: rgb(144, 160, 157);
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+.block .card-body {
+    background-color: rgb(192, 215, 211);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+.information ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.information ul li {
+    padding: 10px;
+}
+
+.information ul li:nth-child(odd) {
+    background-color: #8baea2;
+}
+
+
+.information ul li span {
+    display: inline-block;
+    width: 120px
+}
+
+
+.caption .date {
+    position: absolute;
+    right: 98px;
+    bottom: -8px;
+    color: rgb(130, 126, 126);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.caption a {
+    text-decoration: none;
+    color: #0e2820;
+
+}
+
+/* End Profile */
+
+/* Start Categories */
+
+.items-control img {
+    width: 200px;
+    height: 200px;
+}
+
+.items-control {
+    position: relative;
+}
+
+.items-control span {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    background-color: #a8afaf;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* End Categories */
+
+/* Start of Create New Ads */
+.new-ad-form {
+    padding: 10px;
+    background-color: #a8afaf;
+
+}
+
+
+
+/* End of Create New Ads */
+
+/* Start Of Items */
+
+.caption ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.caption ul li {
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.caption ul li:nth-child(odd) {
+    background-color: #a8b4b2;
+}
+
+.caption ul li:nth-child(even) {
+    background-color: #5c8478;
+}
+
+
+.caption ul li span {
+    display: inline-block;
+    width: 120px
+}
+
+.add-comment h3 {
+    margin: 0px 0px 10px;
+}
+
+.add-comment textarea {
+    display: block;
+    margin: 10px 0px;
+}
+
+
+
+
+/* End Of Items */
